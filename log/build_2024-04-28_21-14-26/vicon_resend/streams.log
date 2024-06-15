@@ -1,0 +1,27 @@
+[1.151s] Invoking command in '/home/javier/vicon_resend_ws/src/vicon_resend': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/javier/vicon_resend_ws/build/vicon_resend/prefix_override:/home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vicon_resend build --build-base /home/javier/vicon_resend_ws/build/vicon_resend/build install --record /home/javier/vicon_resend_ws/build/vicon_resend/install.log --single-version-externally-managed
+[1.484s] running egg_info
+[1.485s] writing ../../build/vicon_resend/vicon_resend.egg-info/PKG-INFO
+[1.486s] writing dependency_links to ../../build/vicon_resend/vicon_resend.egg-info/dependency_links.txt
+[1.486s] writing entry points to ../../build/vicon_resend/vicon_resend.egg-info/entry_points.txt
+[1.486s] writing requirements to ../../build/vicon_resend/vicon_resend.egg-info/requires.txt
+[1.487s] writing top-level names to ../../build/vicon_resend/vicon_resend.egg-info/top_level.txt
+[1.490s] reading manifest file '../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt'
+[1.490s] adding license file 'LICENSE'
+[1.491s] writing manifest file '../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt'
+[1.492s] running build
+[1.492s] running build_py
+[1.492s] copying vicon_resend/vicon_resend.py -> /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend
+[1.492s] running install
+[1.493s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.493s]   warnings.warn(
+[1.493s] running install_lib
+[1.494s] copying /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend/vicon_resend.py -> /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend
+[1.495s] byte-compiling /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend/vicon_resend.py to vicon_resend.cpython-310.pyc
+[1.496s] running install_data
+[1.497s] running install_egg_info
+[1.500s] removing '/home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend-0.0.0-py3.10.egg-info' (and everything under it)
+[1.500s] Copying ../../build/vicon_resend/vicon_resend.egg-info to /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend-0.0.0-py3.10.egg-info
+[1.502s] running install_scripts
+[1.540s] Installing vicon_resend script to /home/javier/vicon_resend_ws/install/vicon_resend/lib/vicon_resend
+[1.540s] writing list of installed files to '/home/javier/vicon_resend_ws/build/vicon_resend/install.log'
+[1.571s] Invoked command in '/home/javier/vicon_resend_ws/src/vicon_resend' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/javier/vicon_resend_ws/build/vicon_resend/prefix_override:/home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vicon_resend build --build-base /home/javier/vicon_resend_ws/build/vicon_resend/build install --record /home/javier/vicon_resend_ws/build/vicon_resend/install.log --single-version-externally-managed

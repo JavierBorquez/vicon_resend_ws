@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (vicon_resend) JobQueued: {'identifier': 'vicon_resend', 'dependencies': OrderedDict()}
+[0.003553] (vicon_resend) JobStarted: {'identifier': 'vicon_resend'}
+[0.099602] (-) TimerEvent: {}
+[0.199942] (-) TimerEvent: {}
+[0.300292] (-) TimerEvent: {}
+[0.400620] (-) TimerEvent: {}
+[0.500957] (-) TimerEvent: {}
+[0.601289] (-) TimerEvent: {}
+[0.701641] (-) TimerEvent: {}
+[0.801993] (-) TimerEvent: {}
+[0.902400] (-) TimerEvent: {}
+[1.002760] (-) TimerEvent: {}
+[1.103103] (-) TimerEvent: {}
+[1.203434] (-) TimerEvent: {}
+[1.303742] (-) TimerEvent: {}
+[1.404068] (-) TimerEvent: {}
+[1.504380] (-) TimerEvent: {}
+[1.601470] (vicon_resend) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/vicon_resend', 'build', '--build-base', '/home/javier/vicon_resend_ws/build/vicon_resend/build', 'install', '--record', '/home/javier/vicon_resend_ws/build/vicon_resend/install.log', '--single-version-externally-managed'], 'cwd': '/home/javier/vicon_resend_ws/src/vicon_resend', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'javier', 'GIO_MODULE_DIR': '/home/javier/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/javier', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CONDA_SHLVL': '1', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/javier/vicon_resend_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GTK_PATH': '/snap/code/157/usr/lib/x86_64-linux-gnu/gtk-3.0', 'GTK_IM_MODULE_FILE': '/home/javier/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/157/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/157/usr/share/code/code', 'MANAGERPID': '1968', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2277', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=910c8fc6e7ecefd96227b704662ee10c', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '250611', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu-xorg.mandatory.path', 'COLCON_PREFIX_PATH': '/home/javier/vicon_resend_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'javier', 'JOURNAL_STREAM': '8:34824', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu-xorg.default.path', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'javier', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/javier/anaconda3/bin:/home/javier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/T470:@/tmp/.ICE-unix/2277,unix/T470:/tmp/.ICE-unix/2277', 'GTK_EXE_PREFIX': '/snap/code/157/usr', 'INVOCATION_ID': 'd1a34fb45c35412b9553e97be82db170', 'XDG_MENU_PREFIX': 'gnome-', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/157/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f1d5a00e3d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/javier/snap/code/157/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/javier/vicon_resend_ws/install/vicon_resend:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/javier/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'CONDA_DEFAULT_ENV': 'base', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/javier/vicon_resend_ws/build/vicon_resend', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'CONDA_EXE': '/home/javier/anaconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=910c8fc6e7ecefd96227b704662ee10c', 'XDG_DATA_DIRS': '/home/javier/snap/code/157/.local/share:/home/javier/snap/code/157:/snap/code/157/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/javier/vicon_resend_ws/build/vicon_resend/prefix_override:/home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages:/home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/javier/anaconda3', 'COLCON': '1'}, 'shell': False}
+[1.604986] (-) TimerEvent: {}
+[1.705302] (-) TimerEvent: {}
+[1.805641] (-) TimerEvent: {}
+[1.905985] (-) TimerEvent: {}
+[2.006317] (-) TimerEvent: {}
+[2.103391] (vicon_resend) StdoutLine: {'line': b'running egg_info\n'}
+[2.104460] (vicon_resend) StdoutLine: {'line': b'writing ../../build/vicon_resend/vicon_resend.egg-info/PKG-INFO\n'}
+[2.104826] (vicon_resend) StdoutLine: {'line': b'writing dependency_links to ../../build/vicon_resend/vicon_resend.egg-info/dependency_links.txt\n'}
+[2.105205] (vicon_resend) StdoutLine: {'line': b'writing entry points to ../../build/vicon_resend/vicon_resend.egg-info/entry_points.txt\n'}
+[2.105475] (vicon_resend) StdoutLine: {'line': b'writing requirements to ../../build/vicon_resend/vicon_resend.egg-info/requires.txt\n'}
+[2.105735] (vicon_resend) StdoutLine: {'line': b'writing top-level names to ../../build/vicon_resend/vicon_resend.egg-info/top_level.txt\n'}
+[2.106657] (-) TimerEvent: {}
+[2.109206] (vicon_resend) StdoutLine: {'line': b"reading manifest file '../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt'\n"}
+[2.109740] (vicon_resend) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.111328] (vicon_resend) StdoutLine: {'line': b"writing manifest file '../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt'\n"}
+[2.111692] (vicon_resend) StdoutLine: {'line': b'running build\n'}
+[2.111917] (vicon_resend) StdoutLine: {'line': b'running build_py\n'}
+[2.112158] (vicon_resend) StdoutLine: {'line': b'copying vicon_resend/vicon_resend.py -> /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend\n'}
+[2.112634] (vicon_resend) StdoutLine: {'line': b'running install\n'}
+[2.112953] (vicon_resend) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.113198] (vicon_resend) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.113590] (vicon_resend) StdoutLine: {'line': b'running install_lib\n'}
+[2.115190] (vicon_resend) StdoutLine: {'line': b'copying /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend/vicon_resend.py -> /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend\n'}
+[2.116569] (vicon_resend) StdoutLine: {'line': b'byte-compiling /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend/vicon_resend.py to vicon_resend.cpython-310.pyc\n'}
+[2.118272] (vicon_resend) StdoutLine: {'line': b'running install_data\n'}
+[2.119413] (vicon_resend) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.123084] (vicon_resend) StdoutLine: {'line': b"removing '/home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.123759] (vicon_resend) StdoutLine: {'line': b'Copying ../../build/vicon_resend/vicon_resend.egg-info to /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend-0.0.0-py3.10.egg-info\n'}
+[2.125923] (vicon_resend) StdoutLine: {'line': b'running install_scripts\n'}
+[2.169907] (vicon_resend) StdoutLine: {'line': b'Installing vicon_resend script to /home/javier/vicon_resend_ws/install/vicon_resend/lib/vicon_resend\n'}
+[2.170332] (vicon_resend) StdoutLine: {'line': b"writing list of installed files to '/home/javier/vicon_resend_ws/build/vicon_resend/install.log'\n"}
+[2.206754] (-) TimerEvent: {}
+[2.211179] (vicon_resend) CommandEnded: {'returncode': 0}
+[2.307065] (-) TimerEvent: {}
+[2.335004] (vicon_resend) JobEnded: {'identifier': 'vicon_resend', 'rc': 0}
+[2.336604] (-) EventReactorShutdown: {}

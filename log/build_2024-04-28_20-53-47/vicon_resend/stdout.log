@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/vicon_resend/vicon_resend.egg-info
+writing ../../build/vicon_resend/vicon_resend.egg-info/PKG-INFO
+writing dependency_links to ../../build/vicon_resend/vicon_resend.egg-info/dependency_links.txt
+writing entry points to ../../build/vicon_resend/vicon_resend.egg-info/entry_points.txt
+writing requirements to ../../build/vicon_resend/vicon_resend.egg-info/requires.txt
+writing top-level names to ../../build/vicon_resend/vicon_resend.egg-info/top_level.txt
+writing manifest file '../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt'
+reading manifest file '../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/javier/vicon_resend_ws/build/vicon_resend/build
+creating /home/javier/vicon_resend_ws/build/vicon_resend/build/lib
+creating /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend
+copying vicon_resend/vicon_resend.py -> /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend
+copying vicon_resend/__init__.py -> /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend
+running install
+running install_lib
+creating /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend
+copying /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend/vicon_resend.py -> /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend
+copying /home/javier/vicon_resend_ws/build/vicon_resend/build/lib/vicon_resend/__init__.py -> /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend
+byte-compiling /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend/vicon_resend.py to vicon_resend.cpython-310.pyc
+byte-compiling /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/javier/vicon_resend_ws/install/vicon_resend/share/ament_index
+creating /home/javier/vicon_resend_ws/install/vicon_resend/share/ament_index/resource_index
+creating /home/javier/vicon_resend_ws/install/vicon_resend/share/ament_index/resource_index/packages
+copying resource/vicon_resend -> /home/javier/vicon_resend_ws/install/vicon_resend/share/ament_index/resource_index/packages
+copying package.xml -> /home/javier/vicon_resend_ws/install/vicon_resend/share/vicon_resend
+running install_egg_info
+Copying ../../build/vicon_resend/vicon_resend.egg-info to /home/javier/vicon_resend_ws/install/vicon_resend/lib/python3.10/site-packages/vicon_resend-0.0.0-py3.10.egg-info
+running install_scripts
+Installing vicon_resend script to /home/javier/vicon_resend_ws/install/vicon_resend/lib/vicon_resend
+writing list of installed files to '/home/javier/vicon_resend_ws/build/vicon_resend/install.log'

@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/vicon_resend/vicon_resend.egg-info/PKG-INFO
+../../build/vicon_resend/vicon_resend.egg-info/SOURCES.txt
+../../build/vicon_resend/vicon_resend.egg-info/dependency_links.txt
+../../build/vicon_resend/vicon_resend.egg-info/entry_points.txt
+../../build/vicon_resend/vicon_resend.egg-info/requires.txt
+../../build/vicon_resend/vicon_resend.egg-info/top_level.txt
+../../build/vicon_resend/vicon_resend.egg-info/zip-safe
+resource/vicon_resend
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+vicon_resend/__init__.py
+vicon_resend/vicon_resend.py

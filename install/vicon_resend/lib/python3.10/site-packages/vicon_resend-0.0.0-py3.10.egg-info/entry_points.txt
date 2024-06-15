@@ -1,0 +1,3 @@
+[console_scripts]
+vicon_resend = vicon_resend.vicon_resend:main
+
