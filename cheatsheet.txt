@@ -1,5 +1,5 @@
-## To send rigidbody trough UDP run 
-~/wolfgang_libmotioncapture/libmotioncapture/build/vicon_sender vicon 192.168.1.39
+## Have the libmotioncapture library sending the rigidbody data with:
+./vicon_sender vicon 192.168.1.39
 
 then grab the UDP package and publish it with ROS2 with: 
 
